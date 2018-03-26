@@ -1,0 +1,62 @@
+body {
+        background-image: url("../images/sandpaper/sandpaper.png");
+}
+
+.header {
+    height:200px;
+    width: 100%;
+    background-image: url("../images/Hand-Drawn-Seashells-Repeat.jpg");
+    border:2px solid #cccccc;
+    margin:0px auto;
+}
+
+h1 {
+    font-family: 'Sail', cursive;
+    text-align: center;
+    font-size: 65px;
+    background-color:#4aaaa5;
+    padding: 20px;
+    height: 90px;
+    width: 1180px;
+    color: black;
+    float: left;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+#surf {
+    font-family: 'Alice', serif;
+    text-align: center;
+    font-size: 48px;
+}
+
+p {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.instructions {
+    border:2px solid #cccccc;
+    background-color: rgb(250, 243, 234);
+    width: 675px;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 60px;
+    float: left;
+}
+.container {
+    border:2px solid #cccccc;
+    background-color:  rgb(250, 243, 234);
+    width: 335px;
+    margin-left: 8%;
+    float: left;
+    margin-top: 30px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.crystal {
+    margin-left: 35px;
+}

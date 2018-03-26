@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sally's Sea Shells!</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:500,600|Alice" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Sail" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Sally Sells Sea Shells By The Sea Shore</h1>
+    </div>
+    <!-- Directions for the user on how to play the game -->
+    <div class="instructions">
+        <p id="surf">..to Buy a New Surf Board!</p>
+        <p>Sally wants to buy a new surfboard! In order to earn the remaining money needed to buy the board, she needs to sell
+            sea shells. The amount of money Sally still needs to sell in sea shells will be shown at the start of the game.</p>
+        <p>There are four sea shells below. By clicking on a sea shell, you will add a specific number of points to your total
+            score.
+        </p>
+        <p>In order to win the game, you must match the Total Amount of Shells Sold to the Amount Sally Needs to Make. You will
+            lose the game if your total score goes above the amount Sally needs.</p>
+        <p>The value of each sea shell is hidden from you until you click on it.</p>
+        <p>Each time a new round starts, the value of each sea shell will change.</p>
+    </div>
+
+    <!-- Insert div which holds the randomly generated number to guess -->
+    <div class="container">
+        <p id="randomNum">Amount Sally Needs to Make:</p>
+        <p id="wins">Wins:</p>
+        <p id="losses">Losses:</p>
+        <p id="seashellTotal">Total Amount of Shells Sold:</p>
+        <div class="crystals">
+        </div>
+    </div>
+
+
+    <!-- jQuery link -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--JavaScript link-->
+    <script src="./assets/javascript/game.js"></script>
+
+</body>
+
+</html>
